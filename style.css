@@ -1,7 +1,10 @@
 *{
-    font-family: 'Roboto Slab', serif;
     margin: 10px;
-    background-color: #F4F7FF;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3ebff;
 }
 
 
@@ -69,10 +72,67 @@ h2{
     padding-top: 15px;
 }
 
-footer{
-    padding-top: 10px;
-    text-align: center;
-}
-#contacto p{
+#contacto {
     padding: 10px 10px;
 }
+
+.contenedor{
+    margin: 10px;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+#microsoft:hover{
+    background-color: rgba(60, 150, 252, 0.582);
+    color: white;
+    box-shadow: 0 0 10px rgba(60, 150, 252, 0.582),
+                0 0 15px rgba(60, 150, 252, 0.582),
+                0 0 20px rgba(60, 150, 252, 0.582);
+
+} 
+
+#github:hover{
+    background-color: #171515;
+    color: white;
+    box-shadow: 0 0 10px #171515,
+                0 0 15px #171515,
+                0 0 20px #171515;
+
+} 
+
+#linkedin:hover{
+    background-color: #0e76a8;
+    color: white;
+    box-shadow: 0 0 10px #0e76a8,
+                0 0 15px #0e76a8,
+                0 0 20px #0e76a8;
+
+} 
+
+#google:hover{
+    background-color: #db4a39;
+    color: white;
+    box-shadow: 0 0 10px #db4a39,
+                0 0 15px #db4a39,
+                0 0 20px #db4a39;
+
+} 
+
+footer{
+    position: relative;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
