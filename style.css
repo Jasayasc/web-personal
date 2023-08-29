@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+    background-color: #F4F7FF;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    padding: 40px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: calibri;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: #F4F7FF;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    color: #6c707c;
+    font-size: 12px;
+}
+.logo{
+    color: #292929;
+}
+.active a,
+.menu li a:hover{
+    border-radius: 30px;
+    background-color: #292929;
+    color: #FFF!important;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.der{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+h2{
+    padding-top: 15px;
+}
+
+footer{
+    padding-top: 10px;
+    text-align: center;
+}
+#contacto p{
+    padding: 10px 10px;
+}
